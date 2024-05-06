@@ -3436,7 +3436,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1441983886
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5505,6 +5505,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1794782398, guid: 1b978c21880a31c4684e700141a8820e, type: 3}
+      propertyPath: lr
+      value: 
+      objectReference: {fileID: 8712634551923039742}
+    - target: {fileID: 1794782398, guid: 1b978c21880a31c4684e700141a8820e, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 8712634551923039744}
+    - target: {fileID: 1794782398, guid: 1b978c21880a31c4684e700141a8820e, type: 3}
+      propertyPath: grappleGun
+      value: 
+      objectReference: {fileID: 8712634551923039740}
+    - target: {fileID: 1794782398, guid: 1b978c21880a31c4684e700141a8820e, type: 3}
+      propertyPath: shootPoint
+      value: 
+      objectReference: {fileID: 8712634551923039743}
+    - target: {fileID: 1794782398, guid: 1b978c21880a31c4684e700141a8820e, type: 3}
+      propertyPath: cameraHolder
+      value: 
+      objectReference: {fileID: 8712634551923039741}
+    - target: {fileID: 1794782398, guid: 1b978c21880a31c4684e700141a8820e, type: 3}
+      propertyPath: jointDamperValue
+      value: 4.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 1794782398, guid: 1b978c21880a31c4684e700141a8820e, type: 3}
+      propertyPath: jointSpringValue
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1794782398, guid: 1b978c21880a31c4684e700141a8820e, type: 3}
+      propertyPath: maxJointDistance
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1794782398, guid: 1b978c21880a31c4684e700141a8820e, type: 3}
+      propertyPath: minJointDistance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1794782398, guid: 1b978c21880a31c4684e700141a8820e, type: 3}
+      propertyPath: whatIsGrappable.m_Bits
+      value: 1271
+      objectReference: {fileID: 0}
     - target: {fileID: 824891627540178097, guid: 1b978c21880a31c4684e700141a8820e, type: 3}
       propertyPath: speedText
       value: 
@@ -5563,3 +5603,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b978c21880a31c4684e700141a8820e, type: 3}
+--- !u!1 &8712634551923039740 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7422929406922669994, guid: 1b978c21880a31c4684e700141a8820e, type: 3}
+  m_PrefabInstance: {fileID: 8712634551923039739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8712634551923039741 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 824891628039774074, guid: 1b978c21880a31c4684e700141a8820e, type: 3}
+  m_PrefabInstance: {fileID: 8712634551923039739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!120 &8712634551923039742 stripped
+LineRenderer:
+  m_CorrespondingSourceObject: {fileID: 8712634552108290251, guid: 1b978c21880a31c4684e700141a8820e, type: 3}
+  m_PrefabInstance: {fileID: 8712634551923039739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8712634551923039743 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8712634551884370838, guid: 1b978c21880a31c4684e700141a8820e, type: 3}
+  m_PrefabInstance: {fileID: 8712634551923039739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8712634551923039744 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 824891628829130892, guid: 1b978c21880a31c4684e700141a8820e, type: 3}
+  m_PrefabInstance: {fileID: 8712634551923039739}
+  m_PrefabAsset: {fileID: 0}
